@@ -1,0 +1,1 @@
+![flow](https://docs.erpnext.com/files/overview-flow.png)

@@ -21,7 +21,7 @@ def create_custom_doctypes():
             "name": "User__c",
             "module": "Salesforce",
             "fields": [
-                {"fieldname": "api_name_1", "label": "Api Name 1", "fieldtype": "Data"},
+                {"fieldname": "api_name_1", "label": "Api Name 1", "fieldtype": "Data", "length": 80},
                 {"fieldname": "api_name_2", "label": "Api Name 2", "fieldtype": "Int"},
                 {"fieldname": "api_name_3", "label": "Api Name 3", "fieldtype": "Button"},
                 {"fieldname": "api_name_4", "label": "Api Name 4", "fieldtype": "Duration"},
@@ -34,7 +34,7 @@ def create_custom_doctypes():
             "name": "Account__c",
             "module": "Salesforce",
             "fields": [
-                {"fieldname": "api_name_1", "label": "Api Name 1", "fieldtype": "Date"},
+                {"fieldname": "api_name_1", "label": "Api Name 1", "fieldtype": "Date", "length": 256},
                 {"fieldname": "api_name_2", "label": "Api Name 2", "fieldtype": "Check"}
             ]
         }

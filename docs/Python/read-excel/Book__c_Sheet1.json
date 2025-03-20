@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Book__c",
+        "module": "dev",
+        "fields": [
+            {
+                "label": "カスタムオブジェクト ID",
+                "fieldname": "Id",
+                "fieldtype": "Data",
+                "length": 18
+            },
+            {
+                "label": "所有者 ID",
+                "fieldname": "OwnerId",
+                "fieldtype": "Data",
+                "length": 18
+            },
+            {
+                "label": "削除",
+                "fieldname": "IsDeleted",
+                "fieldtype": "Check"
+            },
+            {
+                "label": "Name",
+                "fieldname": "Name",
+                "fieldtype": "Data",
+                "length": 80
+            },
+            {
+                "label": "作成日",
+                "fieldname": "CreatedDate",
+                "fieldtype": "Datetime"
+            },
+            {
+                "label": "作成者 ID",
+                "fieldname": "CreatedById",
+                "fieldtype": "Data",
+                "length": 18
+            },
+            {
+                "label": "最終更新日",
+                "fieldname": "LastModifiedDate",
+                "fieldtype": "Datetime"
+            },
+            {
+                "label": "最終更新者 ID",
+                "fieldname": "LastModifiedById",
+                "fieldtype": "Data",
+                "length": 18
+            },
+            {
+                "label": "System Modstamp",
+                "fieldname": "SystemModstamp",
+                "fieldtype": "Datetime"
+            },
+            {
+                "label": "最終活動日",
+                "fieldname": "LastActivityDate",
+                "fieldtype": "Date"
+            },
+            {
+                "label": "最終閲覧日",
+                "fieldname": "LastViewedDate",
+                "fieldtype": "Datetime"
+            },
+            {
+                "label": "最終参照日",
+                "fieldname": "LastReferencedDate",
+                "fieldtype": "Datetime"
+            },
+            {
+                "label": "Author",
+                "fieldname": "Author__c",
+                "fieldtype": "Data",
+                "length": 18
+            },
+            {
+                "label": "ISBN_Code",
+                "fieldname": "ISBN_Code__c",
+                "fieldtype": "Data",
+                "length": 255
+            },
+            {
+                "label": "Image_Path",
+                "fieldname": "Image_Path__c",
+                "fieldtype": "Data",
+                "length": 255
+            },
+            {
+                "label": "Price",
+                "fieldname": "Price__c",
+                "fieldtype": "Data",
+                "length": 255
+            },
+            {
+                "label": "Availability",
+                "fieldname": "Availability__c",
+                "fieldtype": "Float"
+            },
+            {
+                "label": "Genre",
+                "fieldname": "Genre__c",
+                "fieldtype": "Select",
+                "length": 255
+            },
+            {
+                "label": "Number_of_sold",
+                "fieldname": "Number_of_sold__c",
+                "fieldtype": "Float"
+            },
+            {
+                "label": "Description",
+                "fieldname": "Description__c",
+                "fieldtype": "Text"
+            },
+            {
+                "label": "Year_of_publication",
+                "fieldname": "Year_of_publication__c",
+                "fieldtype": "Float"
+            }
+        ]
+    }
+]
